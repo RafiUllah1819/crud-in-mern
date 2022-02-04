@@ -35,7 +35,7 @@ router.route("/update/:id").post((req, res) => {
     .then((user) => {
       user.name = req.body.name;
       user.address = req.body.address;
-      user.contact = req.body.address;
+      user.contact = req.body.contact;
 
       user
         .save()
