@@ -23,8 +23,10 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const userRouter = require("./routes/usersRoute");
+const userAuth = require("./routes/auth")
 
 app.use("/users", userRouter);
+app.use("/auth" , userAuth)
 
 app.listen(PORT, () => {
   console.log("server is running on port:" + PORT);
