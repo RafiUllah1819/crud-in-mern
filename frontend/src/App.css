@@ -1,14 +1,14 @@
 .app {
   width: 100%;
   background-color: #f5f9fc;
-  padding-top: 174px;
+  padding-top: 170px;
   padding-bottom: 210px;
 }
 
 .form-section {
   max-width: 682px;
   margin: 0 auto;
-  background: #ffffff;
+  background: #fff;
   padding: 92px 29px;
   border-radius: 2px;
 }

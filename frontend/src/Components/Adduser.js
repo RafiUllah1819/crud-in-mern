@@ -49,7 +49,7 @@ export const Adduser = () => {
 
   return (
     <div className="app">
-      <div className="form-section ">
+      <div className="form-section">
         <div className="form-group mb-2">
           <input
             type="email"
